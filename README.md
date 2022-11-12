@@ -87,8 +87,6 @@ $ phpdbg -qrr bin/coverage <file> [args...]
                                           Ex: {DIR},..,reports
                                           - {DIR}: __DIR__ ('coverage/sources')
                                           - ..   : parent path
-
-   --self-coverage                        Only for test purpose of coverage itself.
 ```
 
 ### Configuration
