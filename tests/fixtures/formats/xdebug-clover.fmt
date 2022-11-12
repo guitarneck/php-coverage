@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1668119849" clover="3.2.0">
+  <project timestamp="1668119849" name="All files">
+    <metrics methods="9" coveredmethods="8" statements="74" coveredstatements="58" complexity="0" packages="1" files="1"/>
+    <file name="Configuration.php" path="D:\sources\php\coverage\sources\Configuration.php">
+      <metrics methods="9" coveredmethods="8" statements="74" coveredstatements="58" elements="85" coveredelements="67" loc="85" ncloc="18"/>
+      <class name="coverage\Configuration">
+        <metrics methods="9" coveredmethods="8" statements="66" coveredstatements="53" elements="75" coveredelements="61"/>
+      </class>
+      <line num="18" count="1" type="method" name="instance" classname="coverage\Configuration"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="26" count="1" type="method" name="__construct" classname="coverage\Configuration"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="32" count="1" type="method" name="setup" classname="coverage\Configuration"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="38" count="0" type="stmt"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="44" count="0" type="method" name="__clone" classname="coverage\Configuration"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="46" count="0" type="stmt"/>
+      <line num="48" count="1" type="method" name="__get" classname="coverage\Configuration"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="54" count="1" type="method" name="loadConfiguration" classname="coverage\Configuration"/>
+      <line num="55" count="1" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+      <line num="61" count="1" type="method" name="update" classname="coverage\Configuration"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="64" count="1" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="68" count="1" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="70" count="0" type="stmt"/>
+      <line num="71" count="0" type="stmt"/>
+      <line num="72" count="1" type="stmt"/>
+      <line num="73" count="0" type="stmt"/>
+      <line num="74" count="0" type="stmt"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="76" count="1" type="stmt"/>
+      <line num="77" count="1" type="stmt"/>
+      <line num="78" count="2" type="stmt"/>
+      <line num="79" count="0" type="stmt"/>
+      <line num="80" count="0" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="83" count="1" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="85" count="1" type="stmt"/>
+      <line num="86" count="1" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+      <line num="88" count="0" type="stmt"/>
+      <line num="89" count="1" type="stmt"/>
+      <line num="63" count="0" type="closure" name="{closure:63-66}"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="65" count="0" type="stmt"/>
+      <line num="66" count="0" type="stmt"/>
+      <line num="92" count="1" type="method" name="formatHelp" classname="coverage\Configuration"/>
+      <line num="93" count="1" type="stmt"/>
+      <line num="94" count="2" type="stmt"/>
+      <line num="95" count="1" type="stmt"/>
+      <line num="96" count="1" type="stmt"/>
+      <line num="99" count="1" type="method" name="realpath" classname="coverage\Configuration"/>
+      <line num="100" count="1" type="stmt"/>
+      <line num="101" count="1" type="stmt"/>
+      <line num="102" count="1" type="stmt"/>
+      <line num="103" count="1" type="stmt"/>
+      <line num="104" count="1" type="stmt"/>
+      <line num="105" count="1" type="stmt"/>
+      <line num="106" count="1" type="stmt"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="108" count="1" type="stmt"/>
+      <line num="101" count="1" type="closure" name="{closure:101-106}"/>
+      <line num="102" count="1" type="stmt"/>
+      <line num="103" count="1" type="stmt"/>
+      <line num="104" count="2" type="stmt"/>
+      <line num="105" count="2" type="stmt"/>
+      <line num="106" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

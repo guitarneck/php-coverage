@@ -1,0 +1,1104 @@
+{
+    "D:\\sources\\php\\coverage\\sources\\Configuration.php": {
+        "lines": {
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": -2,
+            "28": 1,
+            "29": 1,
+            "34": 1,
+            "35": -1,
+            "37": 1,
+            "38": -1,
+            "40": 1,
+            "41": 1,
+            "46": -1,
+            "50": 1,
+            "51": -2,
+            "56": 1,
+            "57": 1,
+            "63": 1,
+            "65": -1,
+            "66": 1,
+            "67": 1,
+            "69": 1,
+            "70": -1,
+            "72": 1,
+            "73": -1,
+            "75": 1,
+            "76": 1,
+            "78": 1,
+            "79": -1,
+            "81": 1,
+            "83": 1,
+            "85": 1,
+            "87": 1,
+            "88": -1,
+            "89": 1,
+            "94": 1,
+            "95": 1,
+            "96": 1,
+            "101": 1,
+            "103": 1,
+            "104": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1,
+            "108": -2,
+            "110": 1
+        },
+        "functions": {
+            "coverage\\Configuration->formatHelp": {
+                "branches": {
+                    "0": {
+                        "op_start": 0,
+                        "op_end": 5,
+                        "line_start": 92,
+                        "line_end": 94,
+                        "hit": 1,
+                        "out": [
+                            6,
+                            8
+                        ],
+                        "out_hit": [
+                            1,
+                            1
+                        ]
+                    },
+                    "6": {
+                        "op_start": 6,
+                        "op_end": 7,
+                        "line_start": 94,
+                        "line_end": 94,
+                        "hit": 1,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    },
+                    "8": {
+                        "op_start": 8,
+                        "op_end": 20,
+                        "line_start": 95,
+                        "line_end": 96,
+                        "hit": 1,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    }
+                },
+                "paths": [
+                    {
+                        "path": [
+                            0,
+                            6
+                        ],
+                        "hit": 1
+                    },
+                    {
+                        "path": [
+                            0,
+                            8
+                        ],
+                        "hit": 1
+                    }
+                ]
+            },
+            "coverage\\{closure:D:\\sources\\php\\coverage\\sources\\Configuration.php:101-106}": {
+                "branches": {
+                    "0": {
+                        "op_start": 0,
+                        "op_end": 13,
+                        "line_start": 101,
+                        "line_end": 104,
+                        "hit": 1,
+                        "out": [
+                            14,
+                            17
+                        ],
+                        "out_hit": [
+                            1,
+                            0
+                        ]
+                    },
+                    "14": {
+                        "op_start": 14,
+                        "op_end": 16,
+                        "line_start": 104,
+                        "line_end": 105,
+                        "hit": 1,
+                        "out": [
+                            17
+                        ],
+                        "out_hit": [
+                            1
+                        ]
+                    },
+                    "17": {
+                        "op_start": 17,
+                        "op_end": 20,
+                        "line_start": 105,
+                        "line_end": 106,
+                        "hit": 1,
+                        "out": [],
+                        "out_hit": []
+                    }
+                },
+                "paths": [
+                    {
+                        "path": [
+                            0,
+                            14,
+                            17
+                        ],
+                        "hit": 1
+                    },
+                    {
+                        "path": [
+                            0,
+                            17
+                        ],
+                        "hit": 0
+                    }
+                ]
+            },
+            "coverage\\Configuration->instance": {
+                "branches": {
+                    "0": {
+                        "op_start": 0,
+                        "op_end": 5,
+                        "line_start": 18,
+                        "line_end": 21,
+                        "hit": 1,
+                        "out": [
+                            6,
+                            10
+                        ],
+                        "out_hit": [
+                            1,
+                            1
+                        ]
+                    },
+                    "6": {
+                        "op_start": 6,
+                        "op_end": 9,
+                        "line_start": 21,
+                        "line_end": 22,
+                        "hit": 1,
+                        "out": [
+                            10
+                        ],
+                        "out_hit": [
+                            1
+                        ]
+                    },
+                    "10": {
+                        "op_start": 10,
+                        "op_end": 15,
+                        "line_start": 22,
+                        "line_end": 23,
+                        "hit": 1,
+                        "out": [],
+                        "out_hit": []
+                    }
+                },
+                "paths": [
+                    {
+                        "path": [
+                            0,
+                            6,
+                            10
+                        ],
+                        "hit": 1
+                    },
+                    {
+                        "path": [
+                            0,
+                            10
+                        ],
+                        "hit": 1
+                    }
+                ]
+            },
+            "coverage\\Configuration->__get": {
+                "branches": [
+                    {
+                        "op_start": 0,
+                        "op_end": 7,
+                        "line_start": 48,
+                        "line_end": 51,
+                        "hit": 1,
+                        "out": [],
+                        "out_hit": []
+                    }
+                ],
+                "paths": [
+                    {
+                        "path": [
+                            0
+                        ],
+                        "hit": 1
+                    }
+                ]
+            },
+            "coverage\\Configuration->loadConfiguration": {
+                "branches": [
+                    {
+                        "op_start": 0,
+                        "op_end": 16,
+                        "line_start": 54,
+                        "line_end": 57,
+                        "hit": 1,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    }
+                ],
+                "paths": [
+                    {
+                        "path": [
+                            0
+                        ],
+                        "hit": 1
+                    }
+                ]
+            },
+            "{main}": {
+                "branches": [
+                    {
+                        "op_start": 0,
+                        "op_end": 9,
+                        "line_start": 8,
+                        "line_end": 110,
+                        "hit": 1,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    }
+                ],
+                "paths": [
+                    {
+                        "path": [
+                            0
+                        ],
+                        "hit": 1
+                    }
+                ]
+            },
+            "coverage\\{closure:D:\\sources\\php\\coverage\\sources\\Configuration.php:63-66}": {
+                "branches": [
+                    {
+                        "op_start": 0,
+                        "op_end": 7,
+                        "line_start": 63,
+                        "line_end": 66,
+                        "hit": 0,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    }
+                ],
+                "paths": [
+                    {
+                        "path": [
+                            0
+                        ],
+                        "hit": 0
+                    }
+                ]
+            },
+            "coverage\\Configuration->__clone": {
+                "branches": [
+                    {
+                        "op_start": 0,
+                        "op_end": 2,
+                        "line_start": 44,
+                        "line_end": 46,
+                        "hit": 0,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    }
+                ],
+                "paths": [
+                    {
+                        "path": [
+                            0
+                        ],
+                        "hit": 0
+                    }
+                ]
+            },
+            "coverage\\Configuration->__construct": {
+                "branches": [
+                    {
+                        "op_start": 0,
+                        "op_end": 5,
+                        "line_start": 26,
+                        "line_end": 29,
+                        "hit": 1,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    }
+                ],
+                "paths": [
+                    {
+                        "path": [
+                            0
+                        ],
+                        "hit": 1
+                    }
+                ]
+            },
+            "coverage\\Configuration->realpath": {
+                "branches": [
+                    {
+                        "op_start": 0,
+                        "op_end": 16,
+                        "line_start": 99,
+                        "line_end": 108,
+                        "hit": 1,
+                        "out": [],
+                        "out_hit": []
+                    }
+                ],
+                "paths": [
+                    {
+                        "path": [
+                            0
+                        ],
+                        "hit": 1
+                    }
+                ]
+            },
+            "coverage\\Configuration->update": {
+                "branches": {
+                    "0": {
+                        "op_start": 0,
+                        "op_end": 17,
+                        "line_start": 61,
+                        "line_end": 69,
+                        "hit": 1,
+                        "out": [
+                            18,
+                            27
+                        ],
+                        "out_hit": [
+                            0,
+                            1
+                        ]
+                    },
+                    "18": {
+                        "op_start": 18,
+                        "op_end": 26,
+                        "line_start": 70,
+                        "line_end": 72,
+                        "hit": 0,
+                        "out": [
+                            27
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    },
+                    "27": {
+                        "op_start": 27,
+                        "op_end": 30,
+                        "line_start": 72,
+                        "line_end": 72,
+                        "hit": 1,
+                        "out": [
+                            31,
+                            40
+                        ],
+                        "out_hit": [
+                            0,
+                            1
+                        ]
+                    },
+                    "31": {
+                        "op_start": 31,
+                        "op_end": 39,
+                        "line_start": 73,
+                        "line_end": 75,
+                        "hit": 0,
+                        "out": [
+                            40
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    },
+                    "40": {
+                        "op_start": 40,
+                        "op_end": 43,
+                        "line_start": 75,
+                        "line_end": 75,
+                        "hit": 1,
+                        "out": [
+                            44,
+                            49
+                        ],
+                        "out_hit": [
+                            1,
+                            0
+                        ]
+                    },
+                    "44": {
+                        "op_start": 44,
+                        "op_end": 48,
+                        "line_start": 76,
+                        "line_end": 78,
+                        "hit": 1,
+                        "out": [
+                            49
+                        ],
+                        "out_hit": [
+                            1
+                        ]
+                    },
+                    "49": {
+                        "op_start": 49,
+                        "op_end": 52,
+                        "line_start": 78,
+                        "line_end": 78,
+                        "hit": 1,
+                        "out": [
+                            53,
+                            58
+                        ],
+                        "out_hit": [
+                            0,
+                            1
+                        ]
+                    },
+                    "53": {
+                        "op_start": 53,
+                        "op_end": 57,
+                        "line_start": 79,
+                        "line_end": 81,
+                        "hit": 0,
+                        "out": [
+                            58
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    },
+                    "58": {
+                        "op_start": 58,
+                        "op_end": 76,
+                        "line_start": 81,
+                        "line_end": 87,
+                        "hit": 1,
+                        "out": [
+                            77,
+                            82
+                        ],
+                        "out_hit": [
+                            0,
+                            1
+                        ]
+                    },
+                    "77": {
+                        "op_start": 77,
+                        "op_end": 81,
+                        "line_start": 88,
+                        "line_end": 89,
+                        "hit": 0,
+                        "out": [
+                            82
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    },
+                    "82": {
+                        "op_start": 82,
+                        "op_end": 83,
+                        "line_start": 89,
+                        "line_end": 89,
+                        "hit": 1,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    }
+                },
+                "paths": [
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            31,
+                            40,
+                            44,
+                            49,
+                            53,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            31,
+                            40,
+                            44,
+                            49,
+                            53,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            31,
+                            40,
+                            44,
+                            49,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            31,
+                            40,
+                            44,
+                            49,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            31,
+                            40,
+                            49,
+                            53,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            31,
+                            40,
+                            49,
+                            53,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            31,
+                            40,
+                            49,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            31,
+                            40,
+                            49,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            40,
+                            44,
+                            49,
+                            53,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            40,
+                            44,
+                            49,
+                            53,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            40,
+                            44,
+                            49,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            40,
+                            44,
+                            49,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            40,
+                            49,
+                            53,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            40,
+                            49,
+                            53,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            40,
+                            49,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            18,
+                            27,
+                            40,
+                            49,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            31,
+                            40,
+                            44,
+                            49,
+                            53,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            31,
+                            40,
+                            44,
+                            49,
+                            53,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            31,
+                            40,
+                            44,
+                            49,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            31,
+                            40,
+                            44,
+                            49,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            31,
+                            40,
+                            49,
+                            53,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            31,
+                            40,
+                            49,
+                            53,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            31,
+                            40,
+                            49,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            31,
+                            40,
+                            49,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            40,
+                            44,
+                            49,
+                            53,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            40,
+                            44,
+                            49,
+                            53,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            40,
+                            44,
+                            49,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            40,
+                            44,
+                            49,
+                            58,
+                            82
+                        ],
+                        "hit": 1
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            40,
+                            49,
+                            53,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            40,
+                            49,
+                            53,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            40,
+                            49,
+                            58,
+                            77,
+                            82
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            27,
+                            40,
+                            49,
+                            58,
+                            82
+                        ],
+                        "hit": 0
+                    }
+                ]
+            },
+            "coverage\\Configuration->setup": {
+                "branches": {
+                    "0": {
+                        "op_start": 0,
+                        "op_end": 5,
+                        "line_start": 32,
+                        "line_end": 34,
+                        "hit": 1,
+                        "out": [
+                            6,
+                            11
+                        ],
+                        "out_hit": [
+                            0,
+                            1
+                        ]
+                    },
+                    "6": {
+                        "op_start": 6,
+                        "op_end": 10,
+                        "line_start": 35,
+                        "line_end": 37,
+                        "hit": 0,
+                        "out": [
+                            11
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    },
+                    "11": {
+                        "op_start": 11,
+                        "op_end": 21,
+                        "line_start": 37,
+                        "line_end": 37,
+                        "hit": 1,
+                        "out": [
+                            22,
+                            27
+                        ],
+                        "out_hit": [
+                            0,
+                            1
+                        ]
+                    },
+                    "22": {
+                        "op_start": 22,
+                        "op_end": 26,
+                        "line_start": 38,
+                        "line_end": 40,
+                        "hit": 0,
+                        "out": [
+                            27
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    },
+                    "27": {
+                        "op_start": 27,
+                        "op_end": 31,
+                        "line_start": 40,
+                        "line_end": 41,
+                        "hit": 1,
+                        "out": [
+                            2147483645
+                        ],
+                        "out_hit": [
+                            0
+                        ]
+                    }
+                },
+                "paths": [
+                    {
+                        "path": [
+                            0,
+                            6,
+                            11,
+                            22,
+                            27
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            6,
+                            11,
+                            27
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            11,
+                            22,
+                            27
+                        ],
+                        "hit": 0
+                    },
+                    {
+                        "path": [
+                            0,
+                            11,
+                            27
+                        ],
+                        "hit": 1
+                    }
+                ]
+            }
+        }
+    }
+}

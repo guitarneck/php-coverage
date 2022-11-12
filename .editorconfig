@@ -1,0 +1,36 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 3
+tab_width = 3
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+end_of_line = lf
+max_line_length = 132
+curly_bracket_next_line = true
+spaces_around_operators = true
+spaces_around_brackets = both
+indent_brace_style = Allman
+
+[*.php]
+indent_brace_style = Allman
+insert_final_newline = false
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = 80
+
+[*.{html,css}]
+indent_style = tab
+indent_size = 2
+indent_brace_style = K&R
+
+[Makefile]
+indent_style = tab
+
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2

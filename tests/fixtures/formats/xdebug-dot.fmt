@@ -1,0 +1,146 @@
+digraph {
+subgraph cluster_file_96a769694aa0841ba16ccf8fede608b1 {
+label="D:\sources\php\coverage\sources\Configuration.php";
+subgraph cluster_1240b482b4c198c3281ae92b42458747 {
+	label="coverage\Configuration->__clone";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->__clone_0" [ label = "{ op #0-2 | line 44-46 }" ];
+	"__coverage\Configuration->__clone_ENTRY" [label="ENTRY"];	"__coverage\Configuration->__clone_EXIT" [label="EXIT"];	"__coverage\Configuration->__clone_ENTRY" -> "__coverage\Configuration->__clone_0" -> "__coverage\Configuration->__clone_EXIT" [color="/set19/1" penwidth=3  style=dashed];
+}
+subgraph cluster_f0300f9078b25614ea190ddbe5527e34 {
+	label="coverage\Configuration->__construct";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->__construct_0" [ label = "{ op #0-5 | line 26-29 }" ];
+	"__coverage\Configuration->__construct_ENTRY" [label="ENTRY"];	"__coverage\Configuration->__construct_EXIT" [label="EXIT"];	"__coverage\Configuration->__construct_ENTRY" -> "__coverage\Configuration->__construct_0" -> "__coverage\Configuration->__construct_EXIT" [color="/set19/2" penwidth=3 ];
+}
+subgraph cluster_ade9e3443bbf5732574b4e3b9f84a078 {
+	label="coverage\Configuration->__get";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->__get_0" [ label = "{ op #0-7 | line 48-51 }" ];
+	"__coverage\Configuration->__get_ENTRY" [label="ENTRY"];	"__coverage\Configuration->__get_EXIT" [label="EXIT"];	"__coverage\Configuration->__get_ENTRY" -> "__coverage\Configuration->__get_0" [color="/set19/3" penwidth=3 ];
+}
+subgraph cluster_51dacec33fc938e3f19886c685db31ca {
+	label="coverage\Configuration->formatHelp";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->formatHelp_0" [ label = "{ op #0-5 | line 92-94 }" ];
+	"__coverage\Configuration->formatHelp_6" [ label = "{ op #6-7 | line 94-94 }" ];
+	"__coverage\Configuration->formatHelp_8" [ label = "{ op #8-20 | line 95-96 }" ];
+	"__coverage\Configuration->formatHelp_ENTRY" [label="ENTRY"];	"__coverage\Configuration->formatHelp_EXIT" [label="EXIT"];	"__coverage\Configuration->formatHelp_ENTRY" -> "__coverage\Configuration->formatHelp_0" -> "__coverage\Configuration->formatHelp_6" -> "__coverage\Configuration->formatHelp_EXIT" [color="/set19/4" penwidth=3 ];
+	"__coverage\Configuration->formatHelp_ENTRY" -> "__coverage\Configuration->formatHelp_0" -> "__coverage\Configuration->formatHelp_8" -> "__coverage\Configuration->formatHelp_EXIT" [color="/set19/5" penwidth=3 ];
+}
+subgraph cluster_2855c00dbde2fccc7df6795116cf467f {
+	label="coverage\Configuration->instance";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->instance_0" [ label = "{ op #0-5 | line 18-21 }" ];
+	"__coverage\Configuration->instance_6" [ label = "{ op #6-9 | line 21-22 }" ];
+	"__coverage\Configuration->instance_10" [ label = "{ op #10-15 | line 22-23 }" ];
+	"__coverage\Configuration->instance_ENTRY" [label="ENTRY"];	"__coverage\Configuration->instance_EXIT" [label="EXIT"];	"__coverage\Configuration->instance_ENTRY" -> "__coverage\Configuration->instance_0" -> "__coverage\Configuration->instance_6" -> "__coverage\Configuration->instance_10" [color="/set19/6" penwidth=3 ];
+	"__coverage\Configuration->instance_ENTRY" -> "__coverage\Configuration->instance_0" -> "__coverage\Configuration->instance_10" [color="/set19/7" penwidth=3 ];
+}
+subgraph cluster_f0bada512ef0a799331cc68990126134 {
+	label="coverage\Configuration->loadConfiguration";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->loadConfiguration_0" [ label = "{ op #0-16 | line 54-57 }" ];
+	"__coverage\Configuration->loadConfiguration_ENTRY" [label="ENTRY"];	"__coverage\Configuration->loadConfiguration_EXIT" [label="EXIT"];	"__coverage\Configuration->loadConfiguration_ENTRY" -> "__coverage\Configuration->loadConfiguration_0" -> "__coverage\Configuration->loadConfiguration_EXIT" [color="/set19/8" penwidth=3 ];
+}
+subgraph cluster_3eb5b440e059fcb38b9a71e1d3230cc5 {
+	label="coverage\Configuration->realpath";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->realpath_0" [ label = "{ op #0-16 | line 99-108 }" ];
+	"__coverage\Configuration->realpath_ENTRY" [label="ENTRY"];	"__coverage\Configuration->realpath_EXIT" [label="EXIT"];	"__coverage\Configuration->realpath_ENTRY" -> "__coverage\Configuration->realpath_0" [color="/set19/9" penwidth=3 ];
+}
+subgraph cluster_21e5da80a5fc4414c6eb7ddc2b646208 {
+	label="coverage\Configuration->setup";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->setup_0" [ label = "{ op #0-5 | line 32-34 }" ];
+	"__coverage\Configuration->setup_6" [ label = "{ op #6-10 | line 35-37 }" ];
+	"__coverage\Configuration->setup_11" [ label = "{ op #11-21 | line 37-37 }" ];
+	"__coverage\Configuration->setup_22" [ label = "{ op #22-26 | line 38-40 }" ];
+	"__coverage\Configuration->setup_27" [ label = "{ op #27-31 | line 40-41 }" ];
+	"__coverage\Configuration->setup_ENTRY" [label="ENTRY"];	"__coverage\Configuration->setup_EXIT" [label="EXIT"];	"__coverage\Configuration->setup_ENTRY" -> "__coverage\Configuration->setup_0" -> "__coverage\Configuration->setup_6" -> "__coverage\Configuration->setup_11" -> "__coverage\Configuration->setup_22" -> "__coverage\Configuration->setup_27" -> "__coverage\Configuration->setup_EXIT" [color="/set19/1" penwidth=3  style=dashed];
+	"__coverage\Configuration->setup_ENTRY" -> "__coverage\Configuration->setup_0" -> "__coverage\Configuration->setup_6" -> "__coverage\Configuration->setup_11" -> "__coverage\Configuration->setup_27" -> "__coverage\Configuration->setup_EXIT" [color="/set19/2" penwidth=3  style=dashed];
+	"__coverage\Configuration->setup_ENTRY" -> "__coverage\Configuration->setup_0" -> "__coverage\Configuration->setup_11" -> "__coverage\Configuration->setup_22" -> "__coverage\Configuration->setup_27" -> "__coverage\Configuration->setup_EXIT" [color="/set19/3" penwidth=3  style=dashed];
+	"__coverage\Configuration->setup_ENTRY" -> "__coverage\Configuration->setup_0" -> "__coverage\Configuration->setup_11" -> "__coverage\Configuration->setup_27" -> "__coverage\Configuration->setup_EXIT" [color="/set19/4" penwidth=3 ];
+}
+subgraph cluster_aad0c61fe157f80b98072478d06ff91b {
+	label="coverage\Configuration->update";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\Configuration->update_0" [ label = "{ op #0-17 | line 61-69 }" ];
+	"__coverage\Configuration->update_18" [ label = "{ op #18-26 | line 70-72 }" ];
+	"__coverage\Configuration->update_27" [ label = "{ op #27-30 | line 72-72 }" ];
+	"__coverage\Configuration->update_31" [ label = "{ op #31-39 | line 73-75 }" ];
+	"__coverage\Configuration->update_40" [ label = "{ op #40-43 | line 75-75 }" ];
+	"__coverage\Configuration->update_44" [ label = "{ op #44-48 | line 76-78 }" ];
+	"__coverage\Configuration->update_49" [ label = "{ op #49-52 | line 78-78 }" ];
+	"__coverage\Configuration->update_53" [ label = "{ op #53-57 | line 79-81 }" ];
+	"__coverage\Configuration->update_58" [ label = "{ op #58-76 | line 81-87 }" ];
+	"__coverage\Configuration->update_77" [ label = "{ op #77-81 | line 88-89 }" ];
+	"__coverage\Configuration->update_82" [ label = "{ op #82-83 | line 89-89 }" ];
+	"__coverage\Configuration->update_ENTRY" [label="ENTRY"];	"__coverage\Configuration->update_EXIT" [label="EXIT"];	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/5" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/6" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/7" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/8" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/9" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/1" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/2" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/3" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/4" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/5" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/6" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/7" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/8" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/9" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/1" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_18" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/2" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/3" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/4" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/5" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/6" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/7" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/8" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/9" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_31" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/1" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/2" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/3" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/4" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_44" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/5" penwidth=3 ];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/6" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_53" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/7" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_77" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/8" penwidth=3  style=dashed];
+	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/9" penwidth=3  style=dashed];
+}
+subgraph cluster_e70334f3e5a733272a70c53f9abaa66a {
+	label="coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_0" [ label = "{ op #0-13 | line 101-104 }" ];
+	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_14" [ label = "{ op #14-16 | line 104-105 }" ];
+	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_17" [ label = "{ op #17-20 | line 105-106 }" ];
+	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_ENTRY" [label="ENTRY"];	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_EXIT" [label="EXIT"];	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_ENTRY" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_0" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_14" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_17" [color="/set19/1" penwidth=3 ];
+	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_ENTRY" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_0" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_17" [color="/set19/2" penwidth=3  style=dashed];
+}
+subgraph cluster_1a486098d09eae5e4f101a4a4db2d605 {
+	label="coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_0" [ label = "{ op #0-7 | line 63-66 }" ];
+	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_ENTRY" [label="ENTRY"];	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_EXIT" [label="EXIT"];	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_ENTRY" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_0" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_EXIT" [color="/set19/3" penwidth=3  style=dashed];
+}
+subgraph cluster_16e0b994a69b4e439994a6d33a91ef87 {
+	label="{main}";
+	graph [rankdir="LR"];
+	node [shape = record];
+	"__{main}_0" [ label = "{ op #0-9 | line 8-110 }" ];
+	"__{main}_ENTRY" [label="ENTRY"];	"__{main}_EXIT" [label="EXIT"];	"__{main}_ENTRY" -> "__{main}_0" -> "__{main}_EXIT" [color="/set19/4" penwidth=3 ];
+}
+}
+}

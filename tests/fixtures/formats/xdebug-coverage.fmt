@@ -1,0 +1,37 @@
+D:\sources\php\coverage\sources\Configuration.php
+-------------------------------------------------
+   - Lines: Hits 73, Total: 75 (97%)
+
+   coverage\Configuration->instance
+      - Branches: Hits 3, Total 3 (100%)
+      - Lines   : Hits 8, Total 6 (133%)
+   coverage\Configuration->__construct
+      - Branches: Hits 1, Total 1 (100%)
+      - Lines   : Hits 4, Total 4 (100%)
+   coverage\Configuration->setup
+      - Branches: Hits 3, Total 5 (60%)
+      - Lines   : Hits 6, Total 10 (60%)
+   coverage\Configuration->__clone
+      - Branches: Hits 0, Total 1 (0%)
+      - Lines   : Hits 0, Total 3 (0%)
+   coverage\Configuration->__get
+      - Branches: Hits 1, Total 1 (100%)
+      - Lines   : Hits 4, Total 4 (100%)
+   coverage\Configuration->loadConfiguration
+      - Branches: Hits 1, Total 1 (100%)
+      - Lines   : Hits 4, Total 4 (100%)
+   coverage\Configuration->update
+      - Branches: Hits 7, Total 11 (63%)
+      - Lines   : Hits 23, Total 29 (79%)
+   {closure:63-66}
+      - Branches: Hits 0, Total 1 (0%)
+      - Lines   : Hits 0, Total 4 (0%)
+   coverage\Configuration->formatHelp
+      - Branches: Hits 3, Total 3 (100%)
+      - Lines   : Hits 6, Total 5 (120%)
+   coverage\Configuration->realpath
+      - Branches: Hits 1, Total 1 (100%)
+      - Lines   : Hits 10, Total 10 (100%)
+   {closure:101-106}
+      - Branches: Hits 3, Total 3 (100%)
+      - Lines   : Hits 8, Total 6 (133%)

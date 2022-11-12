@@ -1,0 +1,24 @@
+D:\sources\php\coverage\sources\Configuration.php
+-------------------------------------------------
+   - Lines: Hits 35, Total: 40 (87%)
+
+   {closure:63$21}
+      - Lines   : Hits 1, Total 2 (50%)
+   {closure:101$22}
+      - Lines   : Hits 4, Total 4 (100%)
+   coverage\Configuration::instance
+      - Lines   : Hits 3, Total 3 (100%)
+   coverage\Configuration::__construct
+      - Lines   : Hits 1, Total 1 (100%)
+   coverage\Configuration::setup
+      - Lines   : Hits 3, Total 5 (60%)
+   coverage\Configuration::__get
+      - Lines   : Hits 2, Total 2 (100%)
+   coverage\Configuration::loadConfiguration
+      - Lines   : Hits 2, Total 2 (100%)
+   coverage\Configuration::update
+      - Lines   : Hits 12, Total 16 (75%)
+   coverage\Configuration::formatHelp
+      - Lines   : Hits 3, Total 3 (100%)
+   coverage\Configuration::realpath
+      - Lines   : Hits 4, Total 4 (100%)

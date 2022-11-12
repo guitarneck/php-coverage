@@ -1,0 +1,75 @@
+{
+   "name": "guitarneck/xdebug-coverage",
+   "description": "xdebug coverage reporting tool",
+   "keywords": [
+      "php",
+      "coverage",
+      "xdebug",
+      "lcov",
+      "dot",
+      "clover",
+      "coveralls"
+   ],
+   "type": "library",
+   "homepage": "https://github.com/guitarneck/xdebug-coverage",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Laurent S.",
+         "email": "guitarneck@free.fr"
+      }
+   ],
+   "minimum-stability": "dev",
+   "prefer-stable": true,
+
+   "sort-packages": true,
+   "require-dev": {
+      "guitarneck/taphp": "^1.0",
+      "ext-uopz": "^6.1.2"
+   },
+   "require": {
+      "php": ">=5.6.0",
+      "composer-runtime-api": "^2.0.0"
+   },
+
+   "optimize-autoloader": true,
+   "autoload": {
+      "exclude-from-classmap": [
+         "sources/format/*"
+      ],
+      "psr-4": {
+         "coverage\\": "sources/"
+      }
+   },
+   "autoload-dev": {
+      "psr-0": {
+         "": "tests/*"
+      }
+   },
+
+   "suggest": {
+      "ext-xdebug": "*",
+      "ext-pcov": "*"
+   },
+   "conflict": {
+   },
+
+   "bin": [
+      "bin/coverage"
+   ],
+
+   "scripts": {
+      "test": [
+         "Composer\\Config::disableProcessTimeout",
+         "@php -f run-tests.php"
+      ],
+      "publish": [
+         "@rebase-master",
+         "git push origin master"
+      ],
+      "rebase-master": "git pull --rebase origin master"
+   },
+   "scripts-descriptions": {
+      "test": "Run all tests!"
+   }
+}

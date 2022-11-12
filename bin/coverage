@@ -1,0 +1,34 @@
+#!/usr/bin/env php
+<?php
+
+const BOOTSTRAP = 'sources/bootstrap.php';
+
+$binary  = $argv[0];
+$script  = $argv[1];
+
+$usage = <<<HEREDOC
+\e[0m
+Usage:
+   php {$binary} <file> [args...]
+   phpdbg -qrr {$binary} <file> [args...]
+\e[0m
+
+HEREDOC;
+/*
+-d pcov.directory=<project dir>
+*/
+if ( ! in_array($script, array('--help', '-h')) && file_exists($script) )
+{
+   $_SERVER['argv'] = $argv = array_slice($argv, 1);
+
+   include_once dirname(__DIR__) . '/' . BOOTSTRAP;
+   include_once "$script";
+}
+else
+{
+   $_SERVER['argv'] = $argv = array('', '--help');
+
+   print $usage;
+
+   include_once dirname(__DIR__) . '/' . BOOTSTRAP;
+}

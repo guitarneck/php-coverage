@@ -1,0 +1,82 @@
+{
+   "version":"1.0",
+   "renaming": {
+      "extension": ".test.php",
+      "rename": "%s.cov"
+   },
+   "comment: arguments": "[user tokens,property key,is boolean,default value,help text]",
+   "arguments": [
+      [
+         "--handler=,--handler",
+         "handler",
+         false,
+         "xdebug",
+         "The handler to use for coverage.\n\t[xdebug|phpdbg|pcov]\n\tdft: xdebug"
+      ],
+      [
+         "--includes=,--includes,-i",
+         "includes",
+         false,
+         null,
+         "The paths to include. Separated by ','.\n\tEx: src/,inc/"
+      ],
+      [
+         "--excludes=,--excludes,-x",
+         "excludes",
+         false,
+         null,
+         "The paths to exclude. Separated by ','.\n\tEx: vendor/,tests/,inc/lib/"
+      ],
+      [
+         "--output-path=,--output-path,-p",
+         "output",
+         false,
+         "{DIR},..,reports",
+         "The paths to output. Separated by ','.\n\tEx: {DIR},..,reports\n\t- {DIR}: __DIR__ ('coverage/sources')\n\t- ..   : parent path"
+      ],
+      [
+         "--format=,--format,-f",
+         "format",
+         false,
+         null,
+         "The file format to be generated.\n\t[clover|coverage|coveralls|dot|dump|export|json|lcov|raw|serialize]\n\tdft: coverage"
+      ],
+      [
+         "--debug",
+         "debug",
+         true,
+         false,
+         "Show debug informations."
+      ],
+      [
+         "--no-extra-filter",
+         "noExtraFilter",
+         true,
+         false,
+         "Do not apply extra filtering (includes & excludes)."
+      ]
+   ],
+   "includes": [],
+   "excludes": [],
+   "comment: formats available": "export,serialize,json,dot,dump,coverage,coveralls,lcov,clover,raw",
+   "formats":{
+      "clover"    : "Clover",
+      "coverage"  : "Coverage",
+      "coveralls" : "Coveralls",
+      "dot"       : "Dot",
+      "dump"      : "Dump",
+      "export"    : "Export",
+      "json"      : "JSON",
+      "lcov"      : "LCOV",
+      "raw"       : "Raw",
+      "serialize" : "Serialize"
+   },
+   "format": "coverage",
+   "comment: handlers available": "xdebug,phpdbg,pcov",
+   "handlers":{
+      "xdebug" : "XDebug",
+      "phpdbg" : "PHPDBG",
+      "pcov"   : "PCOV"
+   },
+   "handler": "xdebug"
+}

@@ -1,0 +1,128 @@
+coverage\Configuration->__clone
+- branches
+  - 00; OP: 00-02; line: 44-46  X ; out1: EX  X 
+- paths
+  - 0:  X 
+
+coverage\Configuration->__construct
+- branches
+  - 00; OP: 00-05; line: 26-29 HIT; out1: EX  X 
+- paths
+  - 0: HIT
+
+coverage\Configuration->__get
+- branches
+  - 00; OP: 00-07; line: 48-51 HIT
+- paths
+  - 0: HIT
+
+coverage\Configuration->formatHelp
+- branches
+  - 00; OP: 00-05; line: 92-94 HIT; out1: 06 HIT; out2: 08 HIT
+  - 06; OP: 06-07; line: 94-94 HIT; out1: EX  X 
+  - 08; OP: 08-20; line: 95-96 HIT; out1: EX  X 
+- paths
+  - 0 6: HIT
+  - 0 8: HIT
+
+coverage\Configuration->instance
+- branches
+  - 00; OP: 00-05; line: 18-21 HIT; out1: 06 HIT; out2: 10 HIT
+  - 06; OP: 06-09; line: 21-22 HIT; out1: 10 HIT
+  - 10; OP: 10-15; line: 22-23 HIT
+- paths
+  - 0 6 10: HIT
+  - 0 10: HIT
+
+coverage\Configuration->loadConfiguration
+- branches
+  - 00; OP: 00-16; line: 54-57 HIT; out1: EX  X 
+- paths
+  - 0: HIT
+
+coverage\Configuration->realpath
+- branches
+  - 00; OP: 00-16; line: 99-108 HIT
+- paths
+  - 0: HIT
+
+coverage\Configuration->setup
+- branches
+  - 00; OP: 00-05; line: 32-34 HIT; out1: 06  X ; out2: 11 HIT
+  - 06; OP: 06-10; line: 35-37  X ; out1: 11  X 
+  - 11; OP: 11-21; line: 37-37 HIT; out1: 22  X ; out2: 27 HIT
+  - 22; OP: 22-26; line: 38-40  X ; out1: 27  X 
+  - 27; OP: 27-31; line: 40-41 HIT; out1: EX  X 
+- paths
+  - 0 6 11 22 27:  X 
+  - 0 6 11 27:  X 
+  - 0 11 22 27:  X 
+  - 0 11 27: HIT
+
+coverage\Configuration->update
+- branches
+  - 00; OP: 00-17; line: 61-69 HIT; out1: 18  X ; out2: 27 HIT
+  - 18; OP: 18-26; line: 70-72  X ; out1: 27  X 
+  - 27; OP: 27-30; line: 72-72 HIT; out1: 31  X ; out2: 40 HIT
+  - 31; OP: 31-39; line: 73-75  X ; out1: 40  X 
+  - 40; OP: 40-43; line: 75-75 HIT; out1: 44 HIT; out2: 49  X 
+  - 44; OP: 44-48; line: 76-78 HIT; out1: 49 HIT
+  - 49; OP: 49-52; line: 78-78 HIT; out1: 53  X ; out2: 58 HIT
+  - 53; OP: 53-57; line: 79-81  X ; out1: 58  X 
+  - 58; OP: 58-76; line: 81-87 HIT; out1: 77  X ; out2: 82 HIT
+  - 77; OP: 77-81; line: 88-89  X ; out1: 82  X 
+  - 82; OP: 82-83; line: 89-89 HIT; out1: EX  X 
+- paths
+  - 0 18 27 31 40 44 49 53 58 77 82:  X 
+  - 0 18 27 31 40 44 49 53 58 82:  X 
+  - 0 18 27 31 40 44 49 58 77 82:  X 
+  - 0 18 27 31 40 44 49 58 82:  X 
+  - 0 18 27 31 40 49 53 58 77 82:  X 
+  - 0 18 27 31 40 49 53 58 82:  X 
+  - 0 18 27 31 40 49 58 77 82:  X 
+  - 0 18 27 31 40 49 58 82:  X 
+  - 0 18 27 40 44 49 53 58 77 82:  X 
+  - 0 18 27 40 44 49 53 58 82:  X 
+  - 0 18 27 40 44 49 58 77 82:  X 
+  - 0 18 27 40 44 49 58 82:  X 
+  - 0 18 27 40 49 53 58 77 82:  X 
+  - 0 18 27 40 49 53 58 82:  X 
+  - 0 18 27 40 49 58 77 82:  X 
+  - 0 18 27 40 49 58 82:  X 
+  - 0 27 31 40 44 49 53 58 77 82:  X 
+  - 0 27 31 40 44 49 53 58 82:  X 
+  - 0 27 31 40 44 49 58 77 82:  X 
+  - 0 27 31 40 44 49 58 82:  X 
+  - 0 27 31 40 49 53 58 77 82:  X 
+  - 0 27 31 40 49 53 58 82:  X 
+  - 0 27 31 40 49 58 77 82:  X 
+  - 0 27 31 40 49 58 82:  X 
+  - 0 27 40 44 49 53 58 77 82:  X 
+  - 0 27 40 44 49 53 58 82:  X 
+  - 0 27 40 44 49 58 77 82:  X 
+  - 0 27 40 44 49 58 82: HIT
+  - 0 27 40 49 53 58 77 82:  X 
+  - 0 27 40 49 53 58 82:  X 
+  - 0 27 40 49 58 77 82:  X 
+  - 0 27 40 49 58 82:  X 
+
+coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}
+- branches
+  - 00; OP: 00-13; line: 101-104 HIT; out1: 14 HIT; out2: 17  X 
+  - 14; OP: 14-16; line: 104-105 HIT; out1: 17 HIT
+  - 17; OP: 17-20; line: 105-106 HIT
+- paths
+  - 0 14 17: HIT
+  - 0 17:  X 
+
+coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}
+- branches
+  - 00; OP: 00-07; line: 63-66  X ; out1: EX  X 
+- paths
+  - 0:  X 
+
+{main}
+- branches
+  - 00; OP: 00-09; line: 08-110 HIT; out1: EX  X 
+- paths
+  - 0: HIT
