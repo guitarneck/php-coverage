@@ -1,17 +1,19 @@
 {
-   "name": "guitarneck/xdebug-coverage",
-   "description": "xdebug coverage reporting tool",
+   "name": "guitarneck/php-coverage",
+   "description": "php coverage reporting tool and framework",
    "keywords": [
       "php",
       "coverage",
       "xdebug",
+      "phpdebg",
+      "pcov",
       "lcov",
       "dot",
       "clover",
       "coveralls"
    ],
    "type": "library",
-   "homepage": "https://github.com/guitarneck/xdebug-coverage",
+   "homepage": "https://github.com/guitarneck/php-coverage",
    "license": "MIT",
    "authors": [
       {
