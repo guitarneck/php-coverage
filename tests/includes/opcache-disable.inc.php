@@ -1,7 +1,6 @@
 <?php
 // Disable opcache during unit tests
-if ( extension_loaded('opcache') )
+if ( extension_loaded('Zend OPcache') )
 {
    ini_set('opcache.enable', false);
-   ini_set('opcache.optimization_level', 0);
 }

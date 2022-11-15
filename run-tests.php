@@ -2,7 +2,6 @@
 
 use coverage\php\System;
 
-require_once __DIR__ . '/tests/includes/opcache-disable.inc.php';
 require_once __DIR__ . '/vendor/guitarneck/taphp/taphp.lib.php';
 require_once __DIR__ . '/sources/php/System.php';
 
@@ -12,7 +11,7 @@ function TrapOutput ( $filename, $args )
    $tstdir  = __DIR__ . '/tests';
    $nul     = System::devnul();
    ob_start();
-   system("$php -d opcache.enable=Off $args -f $tstdir/$filename.test.php 2>$nul");
+   system("$php $args -f $tstdir/$filename.test.php 2>$nul");
    return ob_get_clean();
 }
 
