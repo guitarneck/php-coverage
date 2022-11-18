@@ -21,5 +21,10 @@ foreach ( $formats as $fmt )
    $d = new DataCoverage();
    $h->coverage($d);
    $formater = Formater::factory($fmt, $config->formats);
-   file_put_contents(__DIR__ . "/xdebug-{$fmt}.fmt", $formater->render($d));
+   $output = $formater->render($d);
+   $output = str_replace(
+      array(\Data::onlyRoot(\Data::CONFIGURATION),str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION))),
+      array('{% TUXROOT %}','{% WINROOT %}'),
+      $output);
+   file_put_contents(__DIR__ . "/xdebug-{$fmt}.fmt", $output);
 }

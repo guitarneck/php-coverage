@@ -1,5 +1,5 @@
 {
-    "D:\\sources\\php\\coverage\\sources\\Configuration.php": {
+    "{% WINROOT %}\\sources\\Configuration.php": {
         "lines": {
             "8": 1,
             "9": 1,
@@ -114,7 +114,7 @@
                     }
                 ]
             },
-            "coverage\\{closure:D:\\sources\\php\\coverage\\sources\\Configuration.php:101-106}": {
+            "coverage\\{closure:{% WINROOT %}\\sources\\Configuration.php:101-106}": {
                 "branches": {
                     "0": {
                         "op_start": 0,
@@ -301,7 +301,7 @@
                     }
                 ]
             },
-            "coverage\\{closure:D:\\sources\\php\\coverage\\sources\\Configuration.php:63-66}": {
+            "coverage\\{closure:{% WINROOT %}\\sources\\Configuration.php:63-66}": {
                 "branches": [
                     {
                         "op_start": 0,

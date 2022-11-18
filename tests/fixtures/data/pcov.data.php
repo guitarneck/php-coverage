@@ -5,7 +5,7 @@ require_once 'Data.class.php';
 function data_import ()
 {
    return array (
-      'D:\\sources\\php\\coverage\\sources\\Configuration.php' =>
+      Data::CONFIGURATION =>
       array (
         110 => 1,
         20 => 1,
@@ -51,7 +51,7 @@ function data_import ()
         104 => 1,
         105 => 1,
       ),
-      'D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php' =>
+      Data::CLIARGUMENTS =>
       array (
         152 => 1,
         22 => -1,

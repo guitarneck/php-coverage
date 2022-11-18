@@ -12,6 +12,7 @@ $config = json_decode(file_get_contents(dirname(__DIR__).DIRECTORY_SEPARATOR.'so
 use coverage\handlers\PCOVHandler;
 use coverage\collector\DataCoverage;
 use coverage\filters\Filter;
+use Data;
 
 include_once 'fixtures/data/Data.class.php';
 include_once 'mocks/PCOVMock.php';
@@ -30,6 +31,11 @@ foreach ( $formats as $fmt )
 
       $rendered = $formater->render($d);
       $saved = file_get_contents(__DIR__ . "/fixtures/formats/pcov-{$fmt}.fmt");
+
+      $saved = str_replace(
+         array('{% TUXROOT %}', '{% WINROOT %}'),
+         array(\Data::onlyRoot(\Data::CONFIGURATION), str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION))),
+         $saved);
 
       if ( $fmt === 'coveralls' )
       {

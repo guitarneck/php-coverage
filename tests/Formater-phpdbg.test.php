@@ -31,6 +31,11 @@ foreach ( $formats as $fmt )
       $rendered = $formater->render($d);
       $saved = file_get_contents(__DIR__ . "/fixtures/formats/phpdbg-{$fmt}.fmt");
 
+      $saved = str_replace(
+         array('{% TUXROOT %}', '{% WINROOT %}'),
+         array(\Data::onlyRoot(\Data::CONFIGURATION), str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION))),
+         $saved);
+
       if ( $fmt === 'coveralls' )
       {
          $t->comment('Removing "run_at", because of diffs');

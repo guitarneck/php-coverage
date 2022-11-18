@@ -1,5 +1,5 @@
 array (
-  'D:\\sources\\php\\coverage\\sources\\Configuration.php' => 
+  '{% WINROOT %}\\sources\\Configuration.php' => 
   array (
     'lines' => 
     array (
@@ -133,7 +133,7 @@ array (
           ),
         ),
       ),
-      'coverage\\{closure:D:\\sources\\php\\coverage\\sources\\Configuration.php:101-106}' => 
+      'coverage\\{closure:{% WINROOT %}\\sources\\Configuration.php:101-106}' => 
       array (
         'branches' => 
         array (
@@ -382,7 +382,7 @@ array (
           ),
         ),
       ),
-      'coverage\\{closure:D:\\sources\\php\\coverage\\sources\\Configuration.php:63-66}' => 
+      'coverage\\{closure:{% WINROOT %}\\sources\\Configuration.php:63-66}' => 
       array (
         'branches' => 
         array (

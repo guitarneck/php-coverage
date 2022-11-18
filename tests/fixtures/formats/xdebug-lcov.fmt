@@ -1,5 +1,5 @@
 TN:
-SF:D:\sources\php\coverage\sources\Configuration.php
+SF:{% TUXROOT %}\sources\Configuration.php
 FN:18,coverage\Configuration->instance
 FN:26,coverage\Configuration->__construct
 FN:32,coverage\Configuration->setup

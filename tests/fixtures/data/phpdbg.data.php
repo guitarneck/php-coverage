@@ -5,7 +5,7 @@ require_once 'Data.class.php';
 function data_import ()
 {
    $executed = array (
-      'D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php' =>
+      Data::CLIARGUMENTS =>
       array (
         152 => 1,
         136 => 1,
@@ -14,7 +14,7 @@ function data_import ()
         70 => 16,
         72 => 80,
       ),
-      'D:\\sources\\php\\coverage\\sources\\Configuration.php' =>
+      Data::CONFIGURATION =>
       array (
         110 => 1,
         20 => 2,
@@ -58,7 +58,7 @@ function data_import ()
    );
 
    $executables = array (
-      'D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php' =>
+      Data::CLIARGUMENTS =>
       array (
         '' . "\0" . 'coverage\\cli\\{closure}D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php:95$1f' =>
         array (
@@ -158,7 +158,7 @@ function data_import ()
           150 => 0,
         ),
       ),
-      'D:\\sources\\php\\coverage\\sources\\Configuration.php' =>
+      Data::CONFIGURATION =>
       array (
         '' . "\0" . 'coverage\\{closure}D:\\sources\\php\\coverage\\sources\\Configuration.php:63$21' =>
         array (

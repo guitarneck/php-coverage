@@ -106,7 +106,7 @@ coverage\Configuration->update
   - 0 27 40 49 58 77 82:  X 
   - 0 27 40 49 58 82:  X 
 
-coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}
+coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}
 - branches
   - 00; OP: 00-13; line: 101-104 HIT; out1: 14 HIT; out2: 17  X 
   - 14; OP: 14-16; line: 104-105 HIT; out1: 17 HIT
@@ -115,7 +115,7 @@ coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}
   - 0 14 17: HIT
   - 0 17:  X 
 
-coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}
+coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}
 - branches
   - 00; OP: 00-07; line: 63-66  X ; out1: EX  X 
 - paths

@@ -1,6 +1,6 @@
 digraph {
 subgraph cluster_file_96a769694aa0841ba16ccf8fede608b1 {
-label="D:\sources\php\coverage\sources\Configuration.php";
+label="{% TUXROOT %}\sources\Configuration.php";
 subgraph cluster_1240b482b4c198c3281ae92b42458747 {
 	label="coverage\Configuration->__clone";
 	graph [rankdir="LR"];
@@ -119,21 +119,21 @@ subgraph cluster_aad0c61fe157f80b98072478d06ff91b {
 	"__coverage\Configuration->update_ENTRY" -> "__coverage\Configuration->update_0" -> "__coverage\Configuration->update_27" -> "__coverage\Configuration->update_40" -> "__coverage\Configuration->update_49" -> "__coverage\Configuration->update_58" -> "__coverage\Configuration->update_82" -> "__coverage\Configuration->update_EXIT" [color="/set19/9" penwidth=3  style=dashed];
 }
 subgraph cluster_e70334f3e5a733272a70c53f9abaa66a {
-	label="coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}";
+	label="coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}";
 	graph [rankdir="LR"];
 	node [shape = record];
-	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_0" [ label = "{ op #0-13 | line 101-104 }" ];
-	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_14" [ label = "{ op #14-16 | line 104-105 }" ];
-	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_17" [ label = "{ op #17-20 | line 105-106 }" ];
-	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_ENTRY" [label="ENTRY"];	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_EXIT" [label="EXIT"];	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_ENTRY" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_0" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_14" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_17" [color="/set19/1" penwidth=3 ];
-	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_ENTRY" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_0" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:101-106}_17" [color="/set19/2" penwidth=3  style=dashed];
+	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_0" [ label = "{ op #0-13 | line 101-104 }" ];
+	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_14" [ label = "{ op #14-16 | line 104-105 }" ];
+	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_17" [ label = "{ op #17-20 | line 105-106 }" ];
+	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_ENTRY" [label="ENTRY"];	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_EXIT" [label="EXIT"];	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_ENTRY" -> "__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_0" -> "__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_14" -> "__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_17" [color="/set19/1" penwidth=3 ];
+	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_ENTRY" -> "__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_0" -> "__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}_17" [color="/set19/2" penwidth=3  style=dashed];
 }
 subgraph cluster_1a486098d09eae5e4f101a4a4db2d605 {
-	label="coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}";
+	label="coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}";
 	graph [rankdir="LR"];
 	node [shape = record];
-	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_0" [ label = "{ op #0-7 | line 63-66 }" ];
-	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_ENTRY" [label="ENTRY"];	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_EXIT" [label="EXIT"];	"__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_ENTRY" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_0" -> "__coverage\{closure:D:\sources\php\coverage\sources\Configuration.php:63-66}_EXIT" [color="/set19/3" penwidth=3  style=dashed];
+	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}_0" [ label = "{ op #0-7 | line 63-66 }" ];
+	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}_ENTRY" [label="ENTRY"];	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}_EXIT" [label="EXIT"];	"__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}_ENTRY" -> "__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}_0" -> "__coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}_EXIT" [color="/set19/3" penwidth=3  style=dashed];
 }
 subgraph cluster_16e0b994a69b4e439994a6d33a91ef87 {
 	label="{main}";

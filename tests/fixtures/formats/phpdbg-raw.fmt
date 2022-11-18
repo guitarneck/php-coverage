@@ -1,4 +1,4 @@
-file: D:\sources\php\coverage\sources\Configuration.php
+file: {% TUXROOT %}\sources\Configuration.php
 line: 20, hits: 1
 line: 21, hits: 1
 line: 22, hits: 1
