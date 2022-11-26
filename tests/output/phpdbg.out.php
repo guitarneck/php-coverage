@@ -52,10 +52,17 @@ register_shutdown_function(function ()
    echo "\n";
 
    $executableLines = phpdbg_get_executable(["functions" => true, "opcodes" => false, "files" => $files]); // Les lignes executables, et les functions (qui ne respectent pas la casse !!!)
+   trimExecutables($executableLines);
    echo "#  executable\n";
    var_export($executableLines);
    echo "\n";
 });
+
+function trimExecutables ( & $executables )
+{
+   foreach ( $executables as $s => $i )
+      $executables[$s] = array_combine(array_map('trim', array_keys($i)), $i);
+}
 
 function isPHPDBG()
 {

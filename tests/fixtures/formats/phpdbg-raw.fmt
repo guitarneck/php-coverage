@@ -27,30 +27,29 @@ line: 79, hits: 0
 line: 81, hits: 1
 line: 83, hits: 1
 line: 85, hits: 1
-line: 87, hits: 1
-line: 88, hits: 0
+line: 86, hits: 0
+line: 90, hits: 1
 line: 92, hits: 1
-line: 94, hits: 1
-line: 95, hits: 1
-line: 99, hits: 1
-line: 101, hits: 2
+line: 93, hits: 1
+line: 97, hits: 1
+line: 99, hits: 2
+line: 101, hits: 1
+line: 102, hits: 1
 line: 103, hits: 1
 line: 104, hits: 1
 line: 105, hits: 1
-line: 106, hits: 1
-line: 107, hits: 1
-hits: 35/40
+hits: 34/39
 function: {closure:63$21}
 Lines:
 line: 63, hits: 1
 line: 65, hits: 0
 hits: 1/2
-function: {closure:101$22}
+function: {closure:99$22}
 Lines:
+line: 99, hits: 1
 line: 101, hits: 1
+line: 102, hits: 1
 line: 103, hits: 1
-line: 104, hits: 1
-line: 105, hits: 1
 hits: 4/4
 function: coverage\Configuration::instance
 Lines:
@@ -96,19 +95,18 @@ line: 79, hits: 0
 line: 81, hits: 1
 line: 83, hits: 1
 line: 85, hits: 1
-line: 87, hits: 1
-line: 88, hits: 0
-hits: 12/16
+line: 86, hits: 0
+hits: 11/15
 function: coverage\Configuration::formatHelp
 Lines:
+line: 90, hits: 1
 line: 92, hits: 1
-line: 94, hits: 1
-line: 95, hits: 1
+line: 93, hits: 1
 hits: 3/3
 function: coverage\Configuration::realpath
 Lines:
+line: 97, hits: 1
 line: 99, hits: 1
-line: 101, hits: 1
-line: 106, hits: 1
-line: 107, hits: 1
+line: 104, hits: 1
+line: 105, hits: 1
 hits: 4/4

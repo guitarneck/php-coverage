@@ -3,17 +3,17 @@ array (
   array (
     '{% WINROOT %}\\sources\\Configuration.php' => 
     array (
-      '' . "\0" . 'coverage\\{closure}{% WINROOT %}\\sources\\Configuration.php:63$21' => 
+      'coverage\\{closure}{% WINROOT %}\\sources\\Configuration.php:63$21' => 
       array (
         63 => 0,
         65 => 0,
       ),
-      '' . "\0" . 'coverage\\{closure}{% WINROOT %}\\sources\\Configuration.php:101$22' => 
+      'coverage\\{closure}{% WINROOT %}\\sources\\Configuration.php:99$22' => 
       array (
+        99 => 0,
         101 => 0,
+        102 => 0,
         103 => 0,
-        104 => 0,
-        105 => 0,
       ),
       'coverage\\configuration::instance' => 
       array (
@@ -62,21 +62,20 @@ array (
         81 => 0,
         83 => 0,
         85 => 0,
-        87 => 0,
-        88 => 0,
+        86 => 0,
       ),
       'coverage\\configuration::formatHelp' => 
       array (
+        90 => 0,
         92 => 0,
-        94 => 0,
-        95 => 0,
+        93 => 0,
       ),
       'coverage\\configuration::realpath' => 
       array (
+        97 => 0,
         99 => 0,
-        101 => 0,
-        106 => 0,
-        107 => 0,
+        104 => 0,
+        105 => 0,
       ),
     ),
   ),
@@ -84,7 +83,7 @@ array (
   array (
     '{% WINROOT %}\\sources\\Configuration.php' => 
     array (
-      110 => 1,
+      108 => 1,
       20 => 2,
       21 => 5,
       28 => 2,
@@ -103,25 +102,24 @@ array (
       78 => 2,
       81 => 3,
       83 => 3,
-      85 => 3,
-      87 => 2,
-      89 => 1,
+      85 => 2,
+      87 => 1,
       41 => 1,
       29 => 1,
       22 => 2,
-      48 => 10,
-      50 => 30,
-      99 => 1,
-      101 => 4,
-      106 => 1,
-      107 => 7,
-      103 => 10,
-      104 => 12,
-      105 => 2,
-      92 => 4,
-      94 => 9,
-      95 => 30,
-      96 => 3,
+      48 => 9,
+      50 => 27,
+      97 => 1,
+      99 => 4,
+      104 => 1,
+      105 => 7,
+      101 => 10,
+      102 => 12,
+      103 => 2,
+      90 => 4,
+      92 => 9,
+      93 => 30,
+      94 => 3,
     ),
   ),
 )

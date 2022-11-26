@@ -57,6 +57,8 @@ class PHPDBGHandler extends AbstractHandler
       if ( ! empty($files) ) $options['files'] = $files;
       $this->executables = phpdbg_get_executable($options);
 
+      $this->trimExecutablesFuncName($this->executables);
+
       return ! empty($this->executables) && ! empty($this->executed);
    }
 
@@ -125,6 +127,13 @@ class PHPDBGHandler extends AbstractHandler
          ksort($slines);
          foreach ( $slines as $line => $hit ) $script->addLine(new DataLine($line, $hit));
       }
+   }
+
+   private
+   function trimExecutablesFuncName ( & $executables )
+   {
+      foreach ( $executables as $s => $i )
+         $executables[$s] = array_combine(array_map('trim', array_keys($i)), $i);
    }
 
    public

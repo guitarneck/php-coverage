@@ -1,5 +1,5 @@
 {% TUXROOT %}\sources\Configuration.php
--------------------------------------------------
+{% UNDERLINE %}
    - Lines: Hits 73, Total: 75 (97%)
 
    coverage\Configuration->instance

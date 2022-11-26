@@ -31,10 +31,16 @@ foreach ( $formats as $fmt )
 
       $rendered = $formater->render($d);
       $saved = file_get_contents(__DIR__ . "/fixtures/formats/pcov-{$fmt}.fmt");
+      $length = strlen(\Data::CONFIGURATION);
 
       $saved = str_replace(
-         array('{% TUXROOT %}', '{% WINROOT %}'),
-         array(\Data::onlyRoot(\Data::CONFIGURATION), str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION))),
+         array('{% TUXROOT %}', '{% WINROOT %}', '{% UNDERLINE %}', '{% STRLENGTH %}'),
+         array(
+            \Data::onlyRoot(\Data::CONFIGURATION),
+            str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION)),
+            str_repeat('-',$length),
+            $length
+         ),
          $saved);
 
       if ( $fmt === 'coveralls' )

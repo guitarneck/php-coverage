@@ -22,9 +22,15 @@ foreach ( $formats as $fmt )
    $h->coverage($d);
    $formater = Formater::factory($fmt, $config->formats);
    $output = $formater->render($d);
+   $length = strlen(\Data::CONFIGURATION);
    $output = str_replace(
-      array(\Data::onlyRoot(\Data::CONFIGURATION),str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION))),
-      array('{% TUXROOT %}','{% WINROOT %}'),
+      array(
+         \Data::onlyRoot(\Data::CONFIGURATION),
+         str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION)),
+         str_repeat('-', $length),
+         "a:1:{s:$length:\""
+      ),
+      array('{% TUXROOT %}', '{% WINROOT %}', '{% UNDERLINE %}', 'a:1:{s:{% STRLENGTH %}:"'),
       $output);
    file_put_contents(__DIR__ . "/phpdbg-{$fmt}.fmt", $output);
 }

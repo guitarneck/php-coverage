@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668803146" clover="3.2.0">
-  <project timestamp="1668803146" name="All files">
-    <metrics methods="8" coveredmethods="8" statements="32" coveredstatements="25" complexity="0" packages="1" files="1"/>
+<coverage generated="1669503788" clover="3.2.0">
+  <project timestamp="1669503788" name="All files">
+    <metrics methods="8" coveredmethods="8" statements="31" coveredstatements="24" complexity="0" packages="1" files="1"/>
     <file name="Configuration.php" path="{% TUXROOT %}\sources\Configuration.php">
-      <metrics methods="8" coveredmethods="8" statements="32" coveredstatements="25" elements="42" coveredelements="35" loc="42" ncloc="7"/>
+      <metrics methods="8" coveredmethods="8" statements="31" coveredstatements="24" elements="41" coveredelements="34" loc="41" ncloc="7"/>
       <class name="coverage\Configuration">
-        <metrics methods="8" coveredmethods="8" statements="28" coveredstatements="22" elements="36" coveredelements="30"/>
+        <metrics methods="8" coveredmethods="8" statements="27" coveredstatements="21" elements="35" coveredelements="29"/>
       </class>
       <line num="63" count="1" type="closure" name="{closure:63$21}"/>
       <line num="65" count="0" type="stmt"/>
-      <line num="101" count="1" type="closure" name="{closure:101$22}"/>
+      <line num="99" count="1" type="closure" name="{closure:99$22}"/>
+      <line num="101" count="1" type="stmt"/>
+      <line num="102" count="1" type="stmt"/>
       <line num="103" count="1" type="stmt"/>
-      <line num="104" count="1" type="stmt"/>
-      <line num="105" count="1" type="stmt"/>
       <line num="20" count="1" type="method" name="instance" classname="coverage\Configuration"/>
       <line num="21" count="1" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
@@ -40,15 +40,14 @@
       <line num="81" count="1" type="stmt"/>
       <line num="83" count="1" type="stmt"/>
       <line num="85" count="1" type="stmt"/>
-      <line num="87" count="1" type="stmt"/>
-      <line num="88" count="0" type="stmt"/>
-      <line num="92" count="1" type="method" name="formatHelp" classname="coverage\Configuration"/>
-      <line num="94" count="1" type="stmt"/>
-      <line num="95" count="1" type="stmt"/>
-      <line num="99" count="1" type="method" name="realpath" classname="coverage\Configuration"/>
-      <line num="101" count="1" type="stmt"/>
-      <line num="106" count="1" type="stmt"/>
-      <line num="107" count="1" type="stmt"/>
+      <line num="86" count="0" type="stmt"/>
+      <line num="90" count="1" type="method" name="formatHelp" classname="coverage\Configuration"/>
+      <line num="92" count="1" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+      <line num="97" count="1" type="method" name="realpath" classname="coverage\Configuration"/>
+      <line num="99" count="1" type="stmt"/>
+      <line num="104" count="1" type="stmt"/>
+      <line num="105" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

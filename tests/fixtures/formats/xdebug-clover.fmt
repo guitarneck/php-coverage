@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668803150" clover="3.2.0">
-  <project timestamp="1668803150" name="All files">
+<coverage generated="1669498859" clover="3.2.0">
+  <project timestamp="1669498859" name="All files">
     <metrics methods="9" coveredmethods="8" statements="74" coveredstatements="58" complexity="0" packages="1" files="1"/>
     <file name="Configuration.php" path="{% TUXROOT %}\sources\Configuration.php">
       <metrics methods="9" coveredmethods="8" statements="74" coveredstatements="58" elements="85" coveredelements="67" loc="85" ncloc="18"/>
