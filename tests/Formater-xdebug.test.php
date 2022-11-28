@@ -66,6 +66,13 @@ foreach ( $formats as $fmt )
          $saved = preg_replace(array('/ generated="\d+" /', '/ timestamp="\d+" /'), array(' ', ' '), $saved);
       }
 
+      if ( $fmt === 'dot' )
+      {
+         $t->comment('Removing hashed tags');
+         $rendered = preg_replace(array('/ cluster_file_[0-9a-f]+ /','/ cluster_[0-9a-f]+ /'),array(' cluster_file_ ',' cluster_ '), $rendered);
+         $saved = preg_replace(array('/ cluster_file_[0-9a-f]+ /','/ cluster_[0-9a-f]+ /'),array(' cluster_file_ ',' cluster_ '), $saved);
+      }
+
       $t->equal($rendered, $saved);
       $t->end();
    });
