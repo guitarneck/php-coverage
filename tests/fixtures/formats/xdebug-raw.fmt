@@ -30,6 +30,7 @@ line: 54, hits: 1
 line: 55, hits: 1
 line: 56, hits: 1
 line: 57, hits: 1
+line: 58, hits: 1
 line: 61, hits: 1
 line: 62, hits: 1
 line: 63, hits: 1
@@ -55,26 +56,24 @@ line: 82, hits: 1
 line: 83, hits: 1
 line: 84, hits: 1
 line: 85, hits: 1
-line: 86, hits: 1
+line: 86, hits: 0
 line: 87, hits: 1
-line: 88, hits: 0
-line: 89, hits: 1
-line: 92, hits: 1
+line: 90, hits: 1
+line: 91, hits: 1
+line: 92, hits: 2
 line: 93, hits: 1
-line: 94, hits: 2
-line: 95, hits: 1
-line: 96, hits: 1
-line: 99, hits: 1
-line: 100, hits: 1
+line: 94, hits: 1
+line: 97, hits: 1
+line: 98, hits: 1
+line: 99, hits: 2
+line: 100, hits: 2
 line: 101, hits: 2
-line: 102, hits: 2
-line: 103, hits: 2
-line: 104, hits: 3
-line: 105, hits: 3
-line: 106, hits: 2
-line: 107, hits: 1
-line: 108, hits: 1
-hits: 73/75
+line: 102, hits: 3
+line: 103, hits: 3
+line: 104, hits: 2
+line: 105, hits: 1
+line: 106, hits: 1
+hits: 72/74
 function: coverage\Configuration->instance
 Branches:
 branch: 0, hit: 1
@@ -176,13 +175,15 @@ line: 54, hits: 1
 line: 55, hits: 1
 line: 56, hits: 1
 line: 57, hits: 1
+line: 58, hits: 1
 hits: 1/1
 Lines:
 line: 54, hits: 1
 line: 55, hits: 1
 line: 56, hits: 1
 line: 57, hits: 1
-hits: 4/4
+line: 58, hits: 1
+hits: 5/5
 function: coverage\Configuration->update
 Branches:
 branch: 0, hit: 1
@@ -223,13 +224,11 @@ line: 82, hits: 1
 line: 83, hits: 1
 line: 84, hits: 1
 line: 85, hits: 1
-line: 86, hits: 1
+branch: 72, hit: 0
+line: 86, hits: 0
+line: 87, hits: 0
+branch: 77, hit: 1
 line: 87, hits: 1
-branch: 77, hit: 0
-line: 88, hits: 0
-line: 89, hits: 0
-branch: 82, hit: 1
-line: 89, hits: 1
 hits: 7/11
 Lines:
 line: 61, hits: 1
@@ -257,11 +256,9 @@ line: 82, hits: 1
 line: 83, hits: 1
 line: 84, hits: 1
 line: 85, hits: 1
-line: 86, hits: 1
+line: 86, hits: 0
 line: 87, hits: 1
-line: 88, hits: 0
-line: 89, hits: 1
-hits: 23/29
+hits: 21/27
 function: {closure:63-66}
 Branches:
 branch: 0, hit: 0
@@ -279,25 +276,27 @@ hits: 0/4
 function: coverage\Configuration->formatHelp
 Branches:
 branch: 0, hit: 1
+line: 90, hits: 1
+line: 91, hits: 1
 line: 92, hits: 1
+branch: 6, hit: 1
+line: 92, hits: 1
+branch: 8, hit: 1
 line: 93, hits: 1
 line: 94, hits: 1
-branch: 6, hit: 1
-line: 94, hits: 1
-branch: 8, hit: 1
-line: 95, hits: 1
-line: 96, hits: 1
 hits: 3/3
 Lines:
-line: 92, hits: 1
+line: 90, hits: 1
+line: 91, hits: 1
+line: 92, hits: 2
 line: 93, hits: 1
-line: 94, hits: 2
-line: 95, hits: 1
-line: 96, hits: 1
+line: 94, hits: 1
 hits: 6/5
 function: coverage\Configuration->realpath
 Branches:
 branch: 0, hit: 1
+line: 97, hits: 1
+line: 98, hits: 1
 line: 99, hits: 1
 line: 100, hits: 1
 line: 101, hits: 1
@@ -306,10 +305,10 @@ line: 103, hits: 1
 line: 104, hits: 1
 line: 105, hits: 1
 line: 106, hits: 1
-line: 107, hits: 1
-line: 108, hits: 1
 hits: 1/1
 Lines:
+line: 97, hits: 1
+line: 98, hits: 1
 line: 99, hits: 1
 line: 100, hits: 1
 line: 101, hits: 1
@@ -318,28 +317,26 @@ line: 103, hits: 1
 line: 104, hits: 1
 line: 105, hits: 1
 line: 106, hits: 1
-line: 107, hits: 1
-line: 108, hits: 1
 hits: 10/10
-function: {closure:101-106}
+function: {closure:99-104}
 Branches:
 branch: 0, hit: 1
+line: 99, hits: 1
+line: 100, hits: 1
 line: 101, hits: 1
 line: 102, hits: 1
+branch: 14, hit: 1
+line: 102, hits: 1
+line: 103, hits: 1
+branch: 17, hit: 1
 line: 103, hits: 1
 line: 104, hits: 1
-branch: 14, hit: 1
-line: 104, hits: 1
-line: 105, hits: 1
-branch: 17, hit: 1
-line: 105, hits: 1
-line: 106, hits: 1
 hits: 3/3
 Lines:
+line: 99, hits: 1
+line: 100, hits: 1
 line: 101, hits: 1
-line: 102, hits: 1
-line: 103, hits: 1
-line: 104, hits: 2
-line: 105, hits: 2
-line: 106, hits: 1
+line: 102, hits: 2
+line: 103, hits: 2
+line: 104, hits: 1
 hits: 8/6

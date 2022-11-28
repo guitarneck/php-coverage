@@ -12,6 +12,7 @@
 */
 
 require_once   dirname(__DIR__) . '/fixtures/data/Data.class.php';
+require_once 'remap_rootdir.func.php';
 
 try
 {
@@ -48,13 +49,13 @@ register_shutdown_function(function ()
       return in_array($f,$files);
    },ARRAY_FILTER_USE_KEY);
    echo "# oplog\n";
-   var_export($executedLines);
+   echo remap_rootdir(Data::onlyRoot(Data::CONFIGURATION), var_export($executedLines, true));
    echo "\n";
 
    $executableLines = phpdbg_get_executable(["functions" => true, "opcodes" => false, "files" => $files]); // Les lignes executables, et les functions (qui ne respectent pas la casse !!!)
    trimExecutables($executableLines);
    echo "#  executable\n";
-   var_export($executableLines);
+   echo remap_rootdir(Data::onlyRoot(Data::CONFIGURATION), var_export($executableLines, true));
    echo "\n";
 });
 

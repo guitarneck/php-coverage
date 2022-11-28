@@ -1,6 +1,6 @@
 # oplog
 array (
-  'D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php' => 
+  '{% WINROOT %}\\sources\\cli\\CLIArguments.php' => 
   array (
     152 => 1,
     136 => 1,
@@ -9,7 +9,7 @@ array (
     70 => 15,
     72 => 75,
   ),
-  'D:\\sources\\php\\coverage\\sources\\Configuration.php' => 
+  '{% WINROOT %}\\sources\\Configuration.php' => 
   array (
     108 => 1,
     20 => 2,
@@ -52,14 +52,14 @@ array (
 )
 #  executable
 array (
-  'D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php' => 
+  '{% WINROOT %}\\sources\\cli\\CLIArguments.php' => 
   array (
-    'coverage\\cli\\{closure}D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php:95$1f' => 
+    'coverage\\cli\\{closure}{% WINROOT %}\\sources\\cli\\CLIArguments.php:95$1f' => 
     array (
       95 => 0,
       97 => 0,
     ),
-    'coverage\\cli\\{closure}D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php:111$20' => 
+    'coverage\\cli\\{closure}{% WINROOT %}\\sources\\cli\\CLIArguments.php:111$20' => 
     array (
       111 => 0,
       113 => 0,
@@ -153,14 +153,14 @@ array (
       150 => 0,
     ),
   ),
-  'D:\\sources\\php\\coverage\\sources\\Configuration.php' => 
+  '{% WINROOT %}\\sources\\Configuration.php' => 
   array (
-    'coverage\\{closure}D:\\sources\\php\\coverage\\sources\\Configuration.php:63$21' => 
+    'coverage\\{closure}{% WINROOT %}\\sources\\Configuration.php:63$21' => 
     array (
       63 => 0,
       65 => 0,
     ),
-    'coverage\\{closure}D:\\sources\\php\\coverage\\sources\\Configuration.php:99$22' => 
+    'coverage\\{closure}{% WINROOT %}\\sources\\Configuration.php:99$22' => 
     array (
       99 => 0,
       101 => 0,

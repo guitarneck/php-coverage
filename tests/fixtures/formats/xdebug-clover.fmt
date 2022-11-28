@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1669498859" clover="3.2.0">
-  <project timestamp="1669498859" name="All files">
-    <metrics methods="9" coveredmethods="8" statements="74" coveredstatements="58" complexity="0" packages="1" files="1"/>
+<coverage generated="1669670716" clover="3.2.0">
+  <project timestamp="1669670716" name="All files">
+    <metrics methods="9" coveredmethods="8" statements="73" coveredstatements="57" complexity="0" packages="1" files="1"/>
     <file name="Configuration.php" path="{% TUXROOT %}\sources\Configuration.php">
-      <metrics methods="9" coveredmethods="8" statements="74" coveredstatements="58" elements="85" coveredelements="67" loc="85" ncloc="18"/>
+      <metrics methods="9" coveredmethods="8" statements="73" coveredstatements="57" elements="84" coveredelements="66" loc="84" ncloc="18"/>
       <class name="coverage\Configuration">
-        <metrics methods="9" coveredmethods="8" statements="66" coveredstatements="53" elements="75" coveredelements="61"/>
+        <metrics methods="9" coveredmethods="8" statements="65" coveredstatements="52" elements="74" coveredelements="60"/>
       </class>
       <line num="18" count="1" type="method" name="instance" classname="coverage\Configuration"/>
       <line num="19" count="1" type="stmt"/>
@@ -38,6 +38,7 @@
       <line num="55" count="1" type="stmt"/>
       <line num="56" count="1" type="stmt"/>
       <line num="57" count="1" type="stmt"/>
+      <line num="58" count="1" type="stmt"/>
       <line num="61" count="1" type="method" name="update" classname="coverage\Configuration"/>
       <line num="62" count="1" type="stmt"/>
       <line num="63" count="1" type="stmt"/>
@@ -63,20 +64,20 @@
       <line num="83" count="1" type="stmt"/>
       <line num="84" count="1" type="stmt"/>
       <line num="85" count="1" type="stmt"/>
-      <line num="86" count="1" type="stmt"/>
+      <line num="86" count="0" type="stmt"/>
       <line num="87" count="1" type="stmt"/>
-      <line num="88" count="0" type="stmt"/>
-      <line num="89" count="1" type="stmt"/>
       <line num="63" count="0" type="closure" name="{closure:63-66}"/>
       <line num="64" count="0" type="stmt"/>
       <line num="65" count="0" type="stmt"/>
       <line num="66" count="0" type="stmt"/>
-      <line num="92" count="1" type="method" name="formatHelp" classname="coverage\Configuration"/>
+      <line num="90" count="1" type="method" name="formatHelp" classname="coverage\Configuration"/>
+      <line num="91" count="1" type="stmt"/>
+      <line num="92" count="2" type="stmt"/>
       <line num="93" count="1" type="stmt"/>
-      <line num="94" count="2" type="stmt"/>
-      <line num="95" count="1" type="stmt"/>
-      <line num="96" count="1" type="stmt"/>
-      <line num="99" count="1" type="method" name="realpath" classname="coverage\Configuration"/>
+      <line num="94" count="1" type="stmt"/>
+      <line num="97" count="1" type="method" name="realpath" classname="coverage\Configuration"/>
+      <line num="98" count="1" type="stmt"/>
+      <line num="99" count="1" type="stmt"/>
       <line num="100" count="1" type="stmt"/>
       <line num="101" count="1" type="stmt"/>
       <line num="102" count="1" type="stmt"/>
@@ -84,14 +85,12 @@
       <line num="104" count="1" type="stmt"/>
       <line num="105" count="1" type="stmt"/>
       <line num="106" count="1" type="stmt"/>
-      <line num="107" count="1" type="stmt"/>
-      <line num="108" count="1" type="stmt"/>
-      <line num="101" count="1" type="closure" name="{closure:101-106}"/>
-      <line num="102" count="1" type="stmt"/>
-      <line num="103" count="1" type="stmt"/>
-      <line num="104" count="2" type="stmt"/>
-      <line num="105" count="2" type="stmt"/>
-      <line num="106" count="1" type="stmt"/>
+      <line num="99" count="1" type="closure" name="{closure:99-104}"/>
+      <line num="100" count="1" type="stmt"/>
+      <line num="101" count="1" type="stmt"/>
+      <line num="102" count="2" type="stmt"/>
+      <line num="103" count="2" type="stmt"/>
+      <line num="104" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

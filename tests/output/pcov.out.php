@@ -15,6 +15,7 @@
  */
 
 require_once dirname(__DIR__) . '/fixtures/data/Data.class.php';
+require_once 'remap_rootdir.func.php';
 
 try
 {
@@ -54,11 +55,11 @@ register_shutdown_function(function ()
    \pcov\clear();
 
    echo "# waiting\n";
-   var_export($waiting);
+   echo remap_rootdir(Data::onlyRoot(Data::CONFIGURATION), var_export($waiting, true));
    echo "\n";
 
    echo "# collected\n";
-   var_export($collected);
+   echo remap_rootdir(Data::onlyRoot(Data::CONFIGURATION), var_export($collected, true));
    echo "\n";
 });
 

@@ -26,7 +26,7 @@ foreach ( $formats as $fmt )
    $output = str_replace(
       array(
          \Data::onlyRoot(\Data::CONFIGURATION),
-         str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION)),
+         str_replace('\\', '\\\\', \Data::onlyRoot(\Data::CONFIGURATION)),
          str_repeat('-', $length),
          "a:1:{s:$length:\""
       ),

@@ -42,6 +42,16 @@ foreach ( $formats as $fmt )
          ),
          $saved);
 
+      $rendered = str_replace(
+         array('{% TUXROOT %}', '{% WINROOT %}', '{% UNDERLINE %}', '{% STRLENGTH %}'),
+         array(
+            \Data::onlyRoot(\Data::CONFIGURATION),
+            str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION)),
+            str_repeat('-',$length),
+            $length
+         ),
+         $rendered);
+
       if ( $fmt === 'coveralls' )
       {
          $t->comment('Removing "run_at", because of diffs');

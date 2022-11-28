@@ -7,64 +7,64 @@ function data_import ()
    $executed = array (
       Data::CLIARGUMENTS =>
       array (
-         152 => 1,
-         136 => 1,
-         138 => 1,
-         139 => 1,
-         70 => 15,
-         72 => 75,
-       ),
+        152 => 1,
+        136 => 1,
+        138 => 1,
+        139 => 1,
+        70 => 15,
+        72 => 75,
+      ),
       Data::CONFIGURATION =>
       array (
-         108 => 1,
-         20 => 2,
-         21 => 5,
-         28 => 2,
-         34 => 4,
-         56 => 16,
-         57 => 10,
-         37 => 10,
-         40 => 2,
-         63 => 2,
-         66 => 2,
-         67 => 7,
-         69 => 2,
-         72 => 2,
-         75 => 2,
-         76 => 3,
-         78 => 2,
-         81 => 3,
-         83 => 3,
-         85 => 2,
-         87 => 1,
-         41 => 1,
-         29 => 1,
-         22 => 2,
-         48 => 9,
-         50 => 27,
-         97 => 1,
-         99 => 4,
-         104 => 1,
-         105 => 7,
-         101 => 10,
-         102 => 12,
-         103 => 2,
-         90 => 4,
-         92 => 9,
-         93 => 30,
-         94 => 3,
-       ),
+        108 => 1,
+        20 => 2,
+        21 => 5,
+        28 => 2,
+        34 => 4,
+        56 => 16,
+        57 => 10,
+        37 => 10,
+        40 => 2,
+        63 => 2,
+        66 => 2,
+        67 => 7,
+        69 => 2,
+        72 => 2,
+        75 => 2,
+        76 => 3,
+        78 => 2,
+        81 => 3,
+        83 => 3,
+        85 => 2,
+        87 => 1,
+        41 => 1,
+        29 => 1,
+        22 => 2,
+        48 => 9,
+        50 => 27,
+        97 => 1,
+        99 => 4,
+        104 => 1,
+        105 => 7,
+        101 => 10,
+        102 => 12,
+        103 => 2,
+        90 => 4,
+        92 => 9,
+        93 => 30,
+        94 => 3,
+      ),
    );
 
    $executables = array (
       Data::CLIARGUMENTS =>
       array (
-         'coverage\\cli\\{closure}D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php:95$1f' =>
+         'coverage\\cli\\{closure}{% WINROOT %}\\sources\\cli\\CLIArguments.php:95$1f' =>
          array (
            95 => 0,
            97 => 0,
          ),
-         'coverage\\cli\\{closure}D:\\sources\\php\\coverage\\sources\\cli\\CLIArguments.php:111$20' =>
+         'coverage\\cli\\{closure}{% WINROOT %}\\sources\\cli\\CLIArguments.php:111$20' =>
          array (
            111 => 0,
            113 => 0,
@@ -157,15 +157,15 @@ function data_import ()
          array (
            150 => 0,
          ),
-      ),
+       ),
       Data::CONFIGURATION =>
       array (
-         'coverage\\{closure}D:\\sources\\php\\coverage\\sources\\Configuration.php:63$21' =>
+         'coverage\\{closure}{% WINROOT %}\\sources\\Configuration.php:63$21' =>
          array (
            63 => 0,
            65 => 0,
          ),
-         'coverage\\{closure}D:\\sources\\php\\coverage\\sources\\Configuration.php:99$22' =>
+         'coverage\\{closure}{% WINROOT %}\\sources\\Configuration.php:99$22' =>
          array (
            99 => 0,
            101 => 0,
@@ -234,7 +234,7 @@ function data_import ()
            104 => 0,
            105 => 0,
          ),
-      ),
+       ),
    );
 
    return array($executables, $executed);

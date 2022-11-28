@@ -26,11 +26,11 @@ foreach ( $formats as $fmt )
    $output = str_replace(
       array(
          \Data::onlyRoot(\Data::CONFIGURATION),
-         str_replace('\\','\\\\',\Data::onlyRoot(\Data::CONFIGURATION)),
+         str_replace('\\', '\\\\', \Data::onlyRoot(\Data::CONFIGURATION)),
          str_repeat('-', $length),
          "a:1:{s:$length:\""
       ),
-      array('{% TUXROOT %}','{% WINROOT %}', '{% UNDERLINE %}', 'a:1:{s:{% STRLENGTH %}:"'),
+      array('{% TUXROOT %}', '{% WINROOT %}', '{% UNDERLINE %}', 'a:1:{s:{% STRLENGTH %}:"'),
       $output);
    file_put_contents(__DIR__ . "/xdebug-{$fmt}.fmt", $output);
 }

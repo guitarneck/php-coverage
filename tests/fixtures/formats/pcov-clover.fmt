@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1669498840" clover="3.2.0">
-  <project timestamp="1669498840" name="All files">
-    <metrics methods="0" coveredmethods="0" statements="43" coveredstatements="35" complexity="0" packages="1" files="1"/>
+<coverage generated="1669670695" clover="3.2.0">
+  <project timestamp="1669670695" name="All files">
+    <metrics methods="0" coveredmethods="0" statements="42" coveredstatements="34" complexity="0" packages="1" files="1"/>
     <file name="Configuration.php" path="{% TUXROOT %}\sources\Configuration.php">
-      <metrics methods="0" coveredmethods="0" statements="43" coveredstatements="35" elements="43" coveredelements="35" loc="43" ncloc="8"/>
+      <metrics methods="0" coveredmethods="0" statements="42" coveredstatements="34" elements="42" coveredelements="34" loc="42" ncloc="8"/>
       <line num="20" count="1" type="stmt"/>
       <line num="21" count="1" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
@@ -34,19 +34,18 @@
       <line num="81" count="1" type="stmt"/>
       <line num="83" count="1" type="stmt"/>
       <line num="85" count="1" type="stmt"/>
+      <line num="86" count="0" type="stmt"/>
       <line num="87" count="1" type="stmt"/>
-      <line num="88" count="0" type="stmt"/>
-      <line num="89" count="1" type="stmt"/>
+      <line num="92" count="1" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
       <line num="94" count="1" type="stmt"/>
-      <line num="95" count="1" type="stmt"/>
-      <line num="96" count="1" type="stmt"/>
+      <line num="99" count="1" type="stmt"/>
       <line num="101" count="1" type="stmt"/>
+      <line num="102" count="1" type="stmt"/>
       <line num="103" count="1" type="stmt"/>
       <line num="104" count="1" type="stmt"/>
       <line num="105" count="1" type="stmt"/>
-      <line num="106" count="1" type="stmt"/>
-      <line num="107" count="1" type="stmt"/>
-      <line num="110" count="1" type="stmt"/>
+      <line num="108" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

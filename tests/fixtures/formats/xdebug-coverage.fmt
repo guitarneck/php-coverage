@@ -1,6 +1,6 @@
 {% TUXROOT %}\sources\Configuration.php
 {% UNDERLINE %}
-   - Lines: Hits 73, Total: 75 (97%)
+   - Lines: Hits 72, Total: 74 (97%)
 
    coverage\Configuration->instance
       - Branches: Hits 3, Total 3 (100%)
@@ -19,10 +19,10 @@
       - Lines   : Hits 4, Total 4 (100%)
    coverage\Configuration->loadConfiguration
       - Branches: Hits 1, Total 1 (100%)
-      - Lines   : Hits 4, Total 4 (100%)
+      - Lines   : Hits 5, Total 5 (100%)
    coverage\Configuration->update
       - Branches: Hits 7, Total 11 (63%)
-      - Lines   : Hits 23, Total 29 (79%)
+      - Lines   : Hits 21, Total 27 (77%)
    {closure:63-66}
       - Branches: Hits 0, Total 1 (0%)
       - Lines   : Hits 0, Total 4 (0%)
@@ -32,6 +32,6 @@
    coverage\Configuration->realpath
       - Branches: Hits 1, Total 1 (100%)
       - Lines   : Hits 10, Total 10 (100%)
-   {closure:101-106}
+   {closure:99-104}
       - Branches: Hits 3, Total 3 (100%)
       - Lines   : Hits 8, Total 6 (133%)

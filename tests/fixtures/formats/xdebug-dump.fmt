@@ -18,9 +18,9 @@ coverage\Configuration->__get
 
 coverage\Configuration->formatHelp
 - branches
-  - 00; OP: 00-05; line: 92-94 HIT; out1: 06 HIT; out2: 08 HIT
-  - 06; OP: 06-07; line: 94-94 HIT; out1: EX  X 
-  - 08; OP: 08-20; line: 95-96 HIT; out1: EX  X 
+  - 00; OP: 00-05; line: 90-92 HIT; out1: 06 HIT; out2: 08 HIT
+  - 06; OP: 06-07; line: 92-92 HIT; out1: EX  X 
+  - 08; OP: 08-20; line: 93-94 HIT; out1: EX  X 
 - paths
   - 0 6: HIT
   - 0 8: HIT
@@ -36,13 +36,13 @@ coverage\Configuration->instance
 
 coverage\Configuration->loadConfiguration
 - branches
-  - 00; OP: 00-16; line: 54-57 HIT; out1: EX  X 
+  - 00; OP: 00-20; line: 54-58 HIT
 - paths
   - 0: HIT
 
 coverage\Configuration->realpath
 - branches
-  - 00; OP: 00-16; line: 99-108 HIT
+  - 00; OP: 00-16; line: 97-106 HIT
 - paths
   - 0: HIT
 
@@ -69,60 +69,60 @@ coverage\Configuration->update
   - 44; OP: 44-48; line: 76-78 HIT; out1: 49 HIT
   - 49; OP: 49-52; line: 78-78 HIT; out1: 53  X ; out2: 58 HIT
   - 53; OP: 53-57; line: 79-81  X ; out1: 58  X 
-  - 58; OP: 58-76; line: 81-87 HIT; out1: 77  X ; out2: 82 HIT
-  - 77; OP: 77-81; line: 88-89  X ; out1: 82  X 
-  - 82; OP: 82-83; line: 89-89 HIT; out1: EX  X 
+  - 58; OP: 58-71; line: 81-85 HIT; out1: 72  X ; out2: 77 HIT
+  - 72; OP: 72-76; line: 86-87  X ; out1: 77  X 
+  - 77; OP: 77-78; line: 87-87 HIT; out1: EX  X 
 - paths
-  - 0 18 27 31 40 44 49 53 58 77 82:  X 
-  - 0 18 27 31 40 44 49 53 58 82:  X 
-  - 0 18 27 31 40 44 49 58 77 82:  X 
-  - 0 18 27 31 40 44 49 58 82:  X 
-  - 0 18 27 31 40 49 53 58 77 82:  X 
-  - 0 18 27 31 40 49 53 58 82:  X 
-  - 0 18 27 31 40 49 58 77 82:  X 
-  - 0 18 27 31 40 49 58 82:  X 
-  - 0 18 27 40 44 49 53 58 77 82:  X 
-  - 0 18 27 40 44 49 53 58 82:  X 
-  - 0 18 27 40 44 49 58 77 82:  X 
-  - 0 18 27 40 44 49 58 82:  X 
-  - 0 18 27 40 49 53 58 77 82:  X 
-  - 0 18 27 40 49 53 58 82:  X 
-  - 0 18 27 40 49 58 77 82:  X 
-  - 0 18 27 40 49 58 82:  X 
-  - 0 27 31 40 44 49 53 58 77 82:  X 
-  - 0 27 31 40 44 49 53 58 82:  X 
-  - 0 27 31 40 44 49 58 77 82:  X 
-  - 0 27 31 40 44 49 58 82:  X 
-  - 0 27 31 40 49 53 58 77 82:  X 
-  - 0 27 31 40 49 53 58 82:  X 
-  - 0 27 31 40 49 58 77 82:  X 
-  - 0 27 31 40 49 58 82:  X 
-  - 0 27 40 44 49 53 58 77 82:  X 
-  - 0 27 40 44 49 53 58 82:  X 
-  - 0 27 40 44 49 58 77 82:  X 
-  - 0 27 40 44 49 58 82: HIT
-  - 0 27 40 49 53 58 77 82:  X 
-  - 0 27 40 49 53 58 82:  X 
-  - 0 27 40 49 58 77 82:  X 
-  - 0 27 40 49 58 82:  X 
+  - 0 18 27 31 40 44 49 53 58 72 77:  X 
+  - 0 18 27 31 40 44 49 53 58 77:  X 
+  - 0 18 27 31 40 44 49 58 72 77:  X 
+  - 0 18 27 31 40 44 49 58 77:  X 
+  - 0 18 27 31 40 49 53 58 72 77:  X 
+  - 0 18 27 31 40 49 53 58 77:  X 
+  - 0 18 27 31 40 49 58 72 77:  X 
+  - 0 18 27 31 40 49 58 77:  X 
+  - 0 18 27 40 44 49 53 58 72 77:  X 
+  - 0 18 27 40 44 49 53 58 77:  X 
+  - 0 18 27 40 44 49 58 72 77:  X 
+  - 0 18 27 40 44 49 58 77:  X 
+  - 0 18 27 40 49 53 58 72 77:  X 
+  - 0 18 27 40 49 53 58 77:  X 
+  - 0 18 27 40 49 58 72 77:  X 
+  - 0 18 27 40 49 58 77:  X 
+  - 0 27 31 40 44 49 53 58 72 77:  X 
+  - 0 27 31 40 44 49 53 58 77:  X 
+  - 0 27 31 40 44 49 58 72 77:  X 
+  - 0 27 31 40 44 49 58 77:  X 
+  - 0 27 31 40 49 53 58 72 77:  X 
+  - 0 27 31 40 49 53 58 77:  X 
+  - 0 27 31 40 49 58 72 77:  X 
+  - 0 27 31 40 49 58 77:  X 
+  - 0 27 40 44 49 53 58 72 77:  X 
+  - 0 27 40 44 49 53 58 77:  X 
+  - 0 27 40 44 49 58 72 77:  X 
+  - 0 27 40 44 49 58 77: HIT
+  - 0 27 40 49 53 58 72 77:  X 
+  - 0 27 40 49 53 58 77:  X 
+  - 0 27 40 49 58 72 77:  X 
+  - 0 27 40 49 58 77:  X 
 
-coverage\{closure:{% TUXROOT %}\sources\Configuration.php:101-106}
-- branches
-  - 00; OP: 00-13; line: 101-104 HIT; out1: 14 HIT; out2: 17  X 
-  - 14; OP: 14-16; line: 104-105 HIT; out1: 17 HIT
-  - 17; OP: 17-20; line: 105-106 HIT
-- paths
-  - 0 14 17: HIT
-  - 0 17:  X 
-
-coverage\{closure:{% TUXROOT %}\sources\Configuration.php:63-66}
+coverage\{closure:{% WINROOT %}\sources\Configuration.php:63-66}
 - branches
   - 00; OP: 00-07; line: 63-66  X ; out1: EX  X 
 - paths
   - 0:  X 
 
+coverage\{closure:{% WINROOT %}\sources\Configuration.php:99-104}
+- branches
+  - 00; OP: 00-13; line: 99-102 HIT; out1: 14 HIT; out2: 17  X 
+  - 14; OP: 14-16; line: 102-103 HIT; out1: 17 HIT
+  - 17; OP: 17-20; line: 103-104 HIT
+- paths
+  - 0 14 17: HIT
+  - 0 17:  X 
+
 {main}
 - branches
-  - 00; OP: 00-09; line: 08-110 HIT; out1: EX  X 
+  - 00; OP: 00-12; line: 03-108 HIT; out1: EX  X 
 - paths
   - 0: HIT

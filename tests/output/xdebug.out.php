@@ -12,6 +12,7 @@
 */
 
 require_once   dirname(__DIR__) . '/fixtures/data/Data.class.php';
+require_once 'remap_rootdir.func.php';
 
 try
 {
@@ -57,7 +58,7 @@ register_shutdown_function(function ()
    },ARRAY_FILTER_USE_KEY);
 
    echo "# collected\n";
-   var_export($collected);
+   echo remap_rootdir(Data::onlyRoot(Data::CONFIGURATION), var_export($collected, true));
    echo "\n";
 });
 
